@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal profile website of Shah Rafi Ahmed.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Shah Rafi Ahmed | Personal Profile">
+  <meta property="og:description" content="Welcome to the personal profile of Shah Rafi Ahmed.">
+  <title>Shah Rafi Ahmed | Personal Profile</title>
+  <style>
+    :root { --ink:#172033; --muted:#64748b; --accent:#2563eb; --bg:#f3f6fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); background:var(--bg); }
+    header { padding:58px 20px 72px; text-align:center; color:white;
+      background:linear-gradient(135deg,#10234b,#2563eb); }
+    header .eyebrow { letter-spacing:3px; font-size:12px; opacity:.85; }
+    h1 { margin:14px 0 10px; font-size:clamp(32px,7vw,54px); }
+    header p { margin:0; font-size:17px; opacity:.9; }
+    main { width:min(900px,calc(100% - 32px)); margin:-34px auto 48px; }
+    .card { background:white; border-radius:20px; padding:28px; margin-bottom:18px;
+      box-shadow:0 12px 35px rgba(15,23,42,.08); }
+    h2 { margin:0 0 14px; font-size:21px; }
+    .intro { color:var(--muted); line-height:1.7; }
+    .profile-mark { width:88px; height:88px; margin:-70px auto 18px; border-radius:50%;
+      display:grid; place-items:center; color:white; font-size:27px; font-weight:bold;
+      background:#1d4ed8; border:5px solid white; box-shadow:0 5px 18px #10234b22; }
+    .center { text-align:center; }
+    .tag { display:inline-block; margin-top:12px; padding:7px 12px; border-radius:30px;
+      background:#eff6ff; color:#1d4ed8; font-size:13px; }
+    .placeholder { color:#94a3b8; font-style:italic; }
+    footer { text-align:center; padding:8px 20px 34px; color:var(--muted); font-size:13px; }
+    @media (max-width:520px) { .card { padding:22px; } header { padding-top:46px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">PERSONAL WEBSITE</div>
+    <h1>Shah Rafi Ahmed</h1>
+    <p>Welcome to my personal profile</p>
+  </header>
+  <main>
+    <section class="card center">
+      <div class="profile-mark" aria-label="Initials">SR</div>
+      <h2>Shah Rafi Ahmed</h2>
+      <p class="intro">Welcome! This is my personal website. Here you can learn more about me,
+      my interests, and my work.</p>
+      <span class="tag">Personal Profile</span>
+    </section>
+    <section class="card">
+      <h2>About Me</h2>
+      <p class="intro placeholder">Add your own short introduction here.</p>
+    </section>
+    <section class="card">
+      <h2>Education</h2>
+      <p class="intro placeholder">Add the education details you want to share publicly.</p>
+    </section>
+    <section class="card">
+      <h2>Work & Interests</h2>
+      <p class="intro placeholder">Add your work, skills, hobbies, or interests here.</p>
+    </section>
+    <section class="card">
+      <h2>Contact</h2>
+      <p class="intro placeholder">Add a public email address or social profile link if you wish.
+      Avoid publishing your home address or private phone number.</p>
+    </section>
+  </main>
+  <footer>© <span id="year">2026</span> Shah Rafi Ahmed</footer>
+</body>
+</html>
